@@ -1,0 +1,10 @@
+#URL SHORTEN APP
+
+1. Install Ruby
+2. Install Rails
+3. run: bundle install      - installing gems
+4. run: rake db:migrate     - migrating the database
+5. check /config/
+5. run: redis-server        - running the redis server for amazon api
+6. run: bundle exec sidekiq - runing sidekiq workers for async calls 
+7. run: rails s             - runing the unicorn rails server
